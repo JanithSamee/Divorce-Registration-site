@@ -42,14 +42,19 @@
     padding: 32px 16px;
     margin: 24px;
     min-width: 210px;
+    /* min-height: 260px; */
 }
 
 .feescard-container h2{
     margin: 4px;
 
 }
+.feescard-container h2 span{
+    color: #FFEA4A;
+
+}
 .feescard-container img {
-    width: 50%;
+    height: 50%;
     padding: 4px 4px 0 4px;
 
 }

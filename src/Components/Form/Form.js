@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SubTitle from "../SubTitle/SubTitle";
 import "../Form/form-style.css";
 
 function Form() {
@@ -13,8 +14,9 @@ function Form() {
 	return (
 		<div className="container-green">
 			<center>
-				<h1 className="main-heading">Application</h1>
-				<div className="line"></div>
+				{/* <h1 className="main-heading">Application</h1>
+				<div className="line"></div> */}
+				<SubTitle title={"Application"}></SubTitle>
 				<h2 className="subheading-1">Please fill in the required items and apply.</h2>
 				<div className="prec-box">
 					<h3 className="subheading-2">Precautions</h3>

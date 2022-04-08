@@ -7,7 +7,7 @@
     padding: 4px 36px;
     border-width: 5px;
     border-style: solid;
-    border-image: linear-gradient(90deg, #5EBC48 0%, #BCDD33 100%) 0% 0%  100%;
+    border-image: linear-gradient(to right, #5EBC48 0%, #BCDD33 100%) 0% 0%  100%;
     transition: ease-in;
     transition-duration: 200ms;
     
