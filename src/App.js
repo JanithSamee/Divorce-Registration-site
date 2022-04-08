@@ -7,10 +7,10 @@ import DivorceWitnessSection from "./Components/DivorceWitnessSection/DivorceWit
 function App() {
 	return (
 		<div>
-			{/* <FeesSection />
-			<Banner></Banner> */}
+			<FeesSection />
+			<Banner></Banner>
 			<DivorceWitnessSection></DivorceWitnessSection>
-			{/* <Form></Form> */}
+			<Form></Form>
 		</div>
 	);
 }
