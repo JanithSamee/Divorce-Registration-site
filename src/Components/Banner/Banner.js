@@ -1,13 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./banner-styles.css";
 import LaptopIcon from "../../assets/laptop-icon.svg";
 import ChatBubbleWhiteIcon from "../../assets/chat-bubble-white.svg";
 import ChatBubbleYellowIcon from "../../assets/chat-bubble-yellow.svg";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Banner() {
+	useEffect(() => {
+		Aos.init({ duration: 1000 });
+	}, []);
+
 	const [icon, seticon] = useState(ChatBubbleWhiteIcon);
 	return (
-		<div className="banner-container">
+		<div data-aos="fade-up" className="banner-container">
 			<div className="banner-whitebox">
 				For those who want to find a witness of divorce report with peace of mind.
 			</div>
