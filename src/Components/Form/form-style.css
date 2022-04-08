@@ -83,6 +83,7 @@ input {
 	border: none;
 	line-height: 2.5;
 	padding-left: 10px;
+	border-radius: 5px;
 }
 .check-box-heading {
 	font-weight: 550;
