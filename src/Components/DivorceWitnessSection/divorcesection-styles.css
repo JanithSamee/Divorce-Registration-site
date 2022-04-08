@@ -100,3 +100,31 @@
     margin: 0 32px;
     background-color: #5CA642;
 }
+
+
+/* ---------------------------- Media Quaries ------------------- */
+
+@media screen and (max-width: 1100px) {
+    .divorcesection-container h3{
+        max-width: 60%;
+        
+    }   
+  }
+@media screen and (max-width: 740px) {
+    .divorcesection-container h3{
+        max-width: 70%;
+        
+    }   
+  }
+@media screen and (max-width: 640px) {
+    .divorcesection-container h3{
+        max-width: 80%;
+        
+    }   
+  }
+@media screen and (max-width: 340px) {
+    .divorcesection-container h3{
+        max-width: 90%;
+        
+    }   
+  }
