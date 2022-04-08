@@ -1,11 +1,31 @@
+/*TODO: Font should be fixed */
 .fees-container{
+    margin: 16px 0;
     display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
+.fees-container h5{
+    color: #333333;
+    max-width: 520px;
+    text-align: center;
+}
+
+/* ------------------------ Fees Cards COntainer Styles ---------------------- */
+
+.fees-cards-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 580px;
+}
 
 
 /* ------------------------ Fees Card Styles ---------------------- */
@@ -20,7 +40,7 @@
     color: #FFFFFF;
     border-radius: 10px;
     padding: 32px 16px;
-    margin: 4px;
+    margin: 24px;
     min-width: 210px;
 }
 
@@ -41,4 +61,77 @@
     padding: 24px 8px;
     margin: 0 8px 0 8px;
     color: #5CA642;
+    font-size: larger;
+    font-weight: 600;
 }
+.feescard-container div::before{
+    content: "Rs. ";
+    color: #333333;
+}
+.feescard-container div::after{
+    content: " (Include tax) ";
+    color: #333333;
+}
+
+/* ------------------------Payment Mothods Styles ------------------ */
+
+.payment-mothods-container{
+    padding: 0 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border:5px solid #5CA642;
+}
+
+/* TODO: Fixed the font */
+.payment-mothods-container h5{
+    color: #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+}
+
+.payment-mothods-container div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 520px;
+    justify-content: space-between;
+
+}
+.payment-mothods-container div img{
+    padding: 4px 32px;
+}
+
+
+/* ---------------------------- Media Quaries ---------------------- */
+
+@media screen and (max-width: 620px) {
+    .fees-cards-container{
+        flex-direction: column;
+        margin: 4px;
+        
+    }   
+    .fees-container h5{
+        max-width: 300px;
+    }
+  }
+@media screen and (max-width: 440px) {
+    .payment-mothods-container div{
+        flex-direction: column;
+        
+    }   
+    .payment-mothods-container{
+        padding: 0 24px;
+    }
+  }
+@media screen and (max-width: 300px) {
+    .fees-container h5{
+        max-width: 200px;
+    }  
+    .payment-mothods-container{
+        padding: 0 12px;
+    }
+  }
