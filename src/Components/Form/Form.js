@@ -36,22 +36,22 @@ function Form() {
 				<div className="form-container">
 					<form>
 						<div className="form-sec-1">
-							<lable>
+							<label>
 								<p className="label-heading">
 									Name
 									<span className="req-badge">Required</span>
 								</p>
-							</lable>
+							</label>
 
 							<input type="text" id="name" style={{ width: "250px" }}></input>
 						</div>
 						<div className="form-sec-2">
-							<lable>
+							<label>
 								<p className="label-heading">
 									Address
 									<span className="req-badge">Required</span>
 								</p>
-							</lable>
+							</label>
 
 							<p
 								style={{
@@ -62,9 +62,9 @@ function Form() {
 								* If you have a request for a different return address or general delivery, please enter
 								it in the remarks column.
 							</p>
-							<lable>
+							<label>
 								<p className="text-box-heading">Post code</p>
-							</lable>
+							</label>
 
 							<input type="text" id="post_code" placeholder="Post code"></input>
 							<br></br>
@@ -87,22 +87,22 @@ function Form() {
 							<input type="text" id="Condominium name"></input>
 						</div>
 						<div className="form-sec-3">
-							<lable>
+							<label>
 								<p className="label-heading">
 									E-mail address
 									<span className="req-badge">Required</span>
 								</p>
-							</lable>
+							</label>
 
 							<input type="email" id="email" style={{ width: "250px" }}></input>
 						</div>
 						<div className="form-sec-4">
-							<lable>
+							<label>
 								<p className="label-heading">
 									Application type
 									<span className="req-badge">Required</span>
 								</p>
-							</lable>
+							</label>
 
 							<input type="radio" id="Acting_person " style={{ boxShadow: "none" }}></input>
 							<label className="check-box-heading">Acting Person</label>
@@ -111,12 +111,12 @@ function Form() {
 							<label className="check-box-heading">Acting 2 people </label>
 						</div>
 						<div className="form-sec-5">
-							<lable>
+							<label>
 								<p className="label-heading">
 									About divorce
 									<span className="req-badge">Required</span>
 								</p>
-							</lable>
+							</label>
 
 							<input type="checkbox" id="type_1" style={{ boxShadow: "none" }}></input>
 							<label className="check-box-heading">Both couples have agreed to divorce or marry.</label>
@@ -138,12 +138,12 @@ function Form() {
 							</p>
 						</div>
 						<div className="form-sec-5">
-							<lable>
+							<label>
 								<p className="label-heading">
 									About identity verification documents
 									<span className="req-badge">Required</span>
 								</p>
-							</lable>
+							</label>
 
 							<input type="checkbox" id="doc_1" style={{ boxShadow: "none" }}></input>
 							<label className="check-box-heading">
@@ -205,12 +205,12 @@ function Form() {
 							</p>
 						</div>
 						<div className="form-sec-8">
-							<lable>
+							<label>
 								<p className="label-heading">
 									<span className="any-badge">Any</span>
 									Comments
 								</p>
-							</lable>
+							</label>
 
 							<input type="text" className="text-area"></input>
 							<br></br>
