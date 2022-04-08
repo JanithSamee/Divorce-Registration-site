@@ -1,0 +1,131 @@
+.divorcesection-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 8px;
+    background-color: #F5F5F5 ;
+    color: #333333;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.divorcesection-container h3{
+    max-width: 40%;
+    padding: 32px 0 8px 0;
+}
+.divorcesection-container h3 span{
+    color: #5CA642;
+}
+
+/* ---------------------------- Law Description Container ------------------- */
+
+.lawdescription-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    max-width: 520px;
+    margin-bottom: 32px;
+}
+.lawdescription-container h2{
+    margin-bottom: 8px;
+}
+.lawdescription-container h2::before{
+    content: 'Civil Law ';
+    color: #5CA642;
+    
+}
+.lawdescription-container h2::after{
+    content: ' Article';
+    color: #333333;
+    
+}
+
+.lawdescription-container div{
+    background-color: #ffffff;
+    border: 2px solid #707070;
+    padding: 32px 24px;
+}
+
+
+/* ---------------------------- Condition Container ------------------- */
+
+.condition-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #5CA642 0% 0% no-repeat padding-box;
+    color: #FFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    max-width: 520px;
+}
+.condition-container h2{
+    color: #FFF;
+}
+.condition-container div{
+    background-color: #FFFF;
+    color: #333333;
+    padding: 32px 24px;
+    margin: 16px ;
+    font-weight: 500;
+}
+
+.condition-container div span{
+    color: #5CA642;
+}
+
+
+/* TODO:Compare with Gimras */
+/* ---------------------------- Divorce Section-Final Text ------------------- */
+
+.divorcesection-finaltext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #5CA642;
+    padding: 4px;
+}
+
+.divorcesection-finaltext div{
+    width: 3px;
+    height: 30px;
+    /* padding: 2px; */
+    margin: 0 32px;
+    background-color: #5CA642;
+}
+
+
+/* ---------------------------- Media Quaries ------------------- */
+
+@media screen and (max-width: 1100px) {
+    .divorcesection-container h3{
+        max-width: 60%;
+        
+    }   
+  }
+@media screen and (max-width: 740px) {
+    .divorcesection-container h3{
+        max-width: 70%;
+        
+    }   
+  }
+@media screen and (max-width: 640px) {
+    .divorcesection-container h3{
+        max-width: 80%;
+        
+    }   
+  }
+@media screen and (max-width: 340px) {
+    .divorcesection-container h3{
+        max-width: 90%;
+        
+    }   
+  }

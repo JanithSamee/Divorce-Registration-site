@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 32">
+    <defs>
+        <style>
+            .cls-1 {
+                opacity: 0.94;
+            }
+
+            .cls-2 {
+                fill: #ff2a20;
+            }
+
+            .cls-3 {
+                fill: #ffa408;
+                opacity: 0.83;
+            }
+        </style>
+    </defs>
+    <title>master</title>
+    <g class="cls-1">
+        <ellipse class="cls-2" cx="15.9" cy="16" rx="15.9" ry="16" />
+    </g>
+    <ellipse class="cls-3" cx="37.1" cy="16" rx="15.9" ry="16" />
+</svg>
