@@ -1,9 +1,11 @@
 .card-container {
+  position: relative;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
   height: 400px;
   width: 350px;
+  margin-top: 20px;
 }
 
 .number {
@@ -45,7 +47,66 @@
   padding: 0px;
 }
 
-.image{
-    margin-top: -30px;
-    margin-left:186px;
+.image {
+  /* margin-top: -30px;
+  margin-left: 140px; */
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.cardBackground1 {
+  background-color: #edfae8;
+  padding-top: 60px;
+  width: 100%;
+}
+
+.cardBackground2 {
+  background-image: url("../../assets/パス 15.svg");
+  background-size: cover;
+  padding-bottom: 60px;
+  width: 100%;
+
+}
+
+.titleNum {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 80px / var(--unnamed-line-spacing-72)
+    Hiragino Mincho ProN;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-5ca642);
+  text-align: center;
+  font: normal normal normal 80px/72px Hiragino Mincho ProN;
+  letter-spacing: 0px;
+  color: #5ca642;
+}
+
+.title {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-42) /
+    var(--unnamed-line-spacing-72) Hiragino Mincho ProN;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-5ca642);
+  text-align: center;
+  font: normal normal normal 42px/72px Hiragino Mincho ProN;
+  letter-spacing: 0px;
+  color: #5ca642;
+}
+
+.titleBlack {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-42) /
+    var(--unnamed-line-spacing-72) Hiragino Mincho ProN;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-333333);
+  text-align: center;
+  font: normal normal normal 42px/72px Hiragino Mincho ProN;
+  letter-spacing: 0px;
+  color: #333333;
 }

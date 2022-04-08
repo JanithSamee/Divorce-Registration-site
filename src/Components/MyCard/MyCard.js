@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./myCard-styles.css";
-
+import icon from "../../assets/icon1.svg";
 
 function MyCard({ number, title, body, imagePath }) {
   
