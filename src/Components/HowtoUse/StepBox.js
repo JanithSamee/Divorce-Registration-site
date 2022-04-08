@@ -1,4 +1,4 @@
-import DownArrowIcon from "../../../assets/down-arrow.svg";
+import DownArrowIcon from "../../assets/down-arrow.svg";
 
 function StepBox({ title, content, footer, number, type, footer2, isLast }) {
 	return type === "1" ? (
@@ -10,10 +10,7 @@ function StepBox({ title, content, footer, number, type, footer2, isLast }) {
 			<h1 className="step-heading">{title}</h1>
 			<p className="step-content">
 				<span>
-					<a
-						href="/"
-						style={{ marginRight: "5px", color: "#3594AA" }}
-					>
+					<a href="/" style={{ marginRight: "5px", color: "#3594AA" }}>
 						Privacy
 					</a>
 				</span>
@@ -22,12 +19,7 @@ function StepBox({ title, content, footer, number, type, footer2, isLast }) {
 			<p className="step-footer">{footer}</p>
 			<p className="step-footer">{footer2}</p>
 			<div className="arrow">
-				<img
-					src={DownArrowIcon}
-					alt="down-arrow"
-					width={"64px"}
-					style={{ marginTop: "16px" }}
-				></img>
+				<img src={DownArrowIcon} alt="down-arrow" width={"64px"} style={{ marginTop: "16px" }}></img>
 			</div>
 		</div>
 	) : isLast ? (
@@ -50,12 +42,7 @@ function StepBox({ title, content, footer, number, type, footer2, isLast }) {
 			<p className="step-content">{content}</p>
 			<p className="step-footer">{footer}</p>
 			<div className="arrow">
-				<img
-					src={DownArrowIcon}
-					alt="down-arrow"
-					width={"64px"}
-					style={{ marginTop: "16px" }}
-				></img>
+				<img src={DownArrowIcon} alt="down-arrow" width={"64px"} style={{ marginTop: "16px" }}></img>
 			</div>
 		</div>
 	);

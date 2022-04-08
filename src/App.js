@@ -3,7 +3,7 @@ import FeesSection from "./Components/FeesSection/FeesSection";
 import Banner from "./Components/Banner/Banner";
 import Form from "./Components/Form/Form";
 import DivorceWitnessSection from "./Components/DivorceWitnessSection/DivorceWitnessSection";
-import HowtoUse from "./Components/Form/HowtoUse/HowtoUse";
+import HowtoUse from "./Components/HowtoUse/HowtoUse";
 
 function App() {
 	return (

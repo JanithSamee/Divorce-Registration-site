@@ -1,5 +1,5 @@
-import SubTitle from "../../SubTitle/SubTitle";
-import "../HowtoUse/how-to-use-style.css";
+import SubTitle from "../SubTitle/SubTitle";
+import "./how-to-use-style.css";
 import StepBox from "./StepBox";
 
 function HowtoUse() {
