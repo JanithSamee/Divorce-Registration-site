@@ -1,0 +1,88 @@
+/* TODO: fixed font */
+.features-container{
+    background-color: #edfae8;
+    background-image: url("../../assets/wave-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.features-container h2{
+    color: #5CA642;
+}
+
+.feature-topic-text{
+    color: #333333;
+    font-size: larger;
+}
+.feature-topic-text span{
+    color: #5CA642;
+}
+
+
+/* -------------------------Feature Cards Container ----------------------------------------- */
+.featurecards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------------Feature Card ----------------------------------------- */
+
+.featurecard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    max-width: 250px;
+    text-align: center;
+    margin: 8px 16px;
+}
+
+.featurecard-number{
+    background-color: #FFF;
+    color: #5CA642;
+    padding: 16px 8px;
+    font-size: 27px;
+}
+
+.featurecard-band{
+    
+    background-color: #5CA642;
+    color: #FFF;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.featurecard-body{
+    
+    padding: 16px 16px 0 16px;
+    text-align: justify;
+    color: #333333;
+    background-color: #FFF;
+}
+
+.featurecard-image {
+    width: 100%;
+}
+
+.featurecard-image img{
+    float: right;
+    margin:0 16px 8px  0;
+    height: 72px;
+}
+
+@media only screen and (max-width:560px) {
+    .featurecards-container{
+        flex-direction: column;
+    }
+}
