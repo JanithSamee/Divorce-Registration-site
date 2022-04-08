@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="706" height="315" viewBox="0 0 706 315">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_37" data-name="長方形 37" width="706" height="315" transform="translate(105 285)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="離婚届_証人代行サービス" x="69" y="59" width="578" height="188" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_326" data-name="グループ 326" transform="translate(-105 -285)">
+    <g id="マスクグループ_1" data-name="マスクグループ 1" clip-path="url(#clip-path)">
+      <rect id="長方形_36" data-name="長方形 36" width="642" height="342.326" transform="translate(128.062 332.671) rotate(-1)" fill="#ffea4a" opacity="0.698"/>
+      <rect id="長方形_26" data-name="長方形 26" width="642" height="329.362" transform="matrix(0.999, 0.035, -0.035, 0.999, 146.378, 309.888)" fill="#5ca642" opacity="0.798"/>
+    </g>
+    <path id="パス_5" data-name="パス 5" d="M0,0H560V40H0Z" transform="translate(183 540)" fill="#333" opacity="0.702"/>
+    <g transform="matrix(1, 0, 0, 1, 105, 285)" filter="url(#離婚届_証人代行サービス)">
+      <text id="離婚届_証人代行サービス-2" data-name="離婚届
+証人代行サービス" transform="translate(78 137)" fill="#fff" font-size="80" font-family="HiraginoSans-W6, Hiragino Sans"><tspan x="0" y="0">離婚届</tspan><tspan y="0" font-family="Arial-BoldMT, Arial" font-weight="700"></tspan><tspan font-size="70"><tspan x="0" y="90">証人代行サービス</tspan></tspan></text>
+    </g>
+    <g id="グループ_6" data-name="グループ 6" transform="translate(296 52)">
+      <g id="グループ_9" data-name="グループ 9">
+        <path id="パス_2" data-name="パス 2" d="M.25-.8,211.4-8,201.15,37-10,44.2Z" transform="translate(192.9 256.55)" fill="#367420"/>
+        <path id="パス_1" data-name="パス 1" d="M.25-.8,211.4-8,201.15,37-10,44.2Z" transform="translate(189.3 252.95)" fill="#ffea4a"/>
+      </g>
+      <text id="対面" transform="matrix(0.999, -0.035, 0.035, 0.999, 222.068, 285.601)" fill="#5ca642" font-size="31.5" font-family="Hiragino Kaku Gothic ProN"><tspan x="0" y="0">対面</tspan></text>
+      <text id="不要_" data-name="不要!" transform="matrix(0.999, -0.035, 0.035, 0.999, 291.326, 283.19)" fill="#333" font-size="31.5" font-family="Hiragino Kaku Gothic ProN"><tspan x="0" y="0">不要!</tspan></text>
+      <g id="グループ_7" data-name="グループ 7" transform="translate(-236 84)">
+        <g id="グループ_8" data-name="グループ 8">
+          <path id="パス_3" data-name="パス 3" d="M.25-.8,211.4-8,201.15,37-10,44.2Z" transform="translate(425.3 241.85)" fill="#367420"/>
+          <path id="パス_4" data-name="パス 4" d="M.25-.8,211.4-8,201.15,37-10,44.2Z" transform="translate(421.7 238.25)" fill="#ffea4a"/>
+        </g>
+        <text id="郵送" transform="matrix(0.999, -0.035, 0.035, 0.999, 454.468, 270.901)" fill="#333" font-size="31.5" font-family="Hiragino Kaku Gothic ProN"><tspan x="0" y="0">郵送</tspan></text>
+        <text id="完結_" data-name="完結!" transform="matrix(0.999, -0.035, 0.035, 0.999, 523.726, 268.49)" fill="#5ca642" font-size="31.5" font-family="Hiragino Kaku Gothic ProN"><tspan x="0" y="0">完結!</tspan></text>
+      </g>
+    </g>
+    <text id="日本全国対応いたします" transform="translate(343 569)" fill="#ffea4a" font-size="25" font-family="HiraginoSans-W6, Hiragino Sans"><tspan x="0" y="0">日本全国対応</tspan><tspan y="0" fill="#fff" font-size="18">いたします</tspan></text>
+  </g>
+</svg>

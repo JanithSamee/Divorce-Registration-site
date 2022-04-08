@@ -1,0 +1,23 @@
+.font-ultra {
+  font-size: calc(1.3em + 0.5vw);
+}
+
+.font-0 {
+  font-size: calc(1em + 0.5vw);
+}
+
+.font-1 {
+  font-size: calc(0.8em + 0.5vw);
+}
+
+.font-2 {
+  font-size: calc(0.7em + 0.5vw);
+}
+
+.font-3 {
+  font-size: calc(0.6em + 0.5vw);
+}
+
+.font-4 {
+  font-size: calc(0.5em + 0.5vw);
+}

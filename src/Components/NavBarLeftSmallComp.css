@@ -1,0 +1,24 @@
+.navBarLeftSmallComp-back {
+  padding: 5%;
+  background-color: yellow;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  font-weight: 700;
+  color: black;
+  white-space: nowrap;
+}
+
+.navBarLeftSmallComp-back:hover {
+  color: green;
+  background-color: white;
+}
+
+@media only screen and (max-width: 991.5px) {
+  .navBarLeftSmallComp-back {
+    padding: 1.5% 0;
+    width: 50% !important;
+  }
+}
