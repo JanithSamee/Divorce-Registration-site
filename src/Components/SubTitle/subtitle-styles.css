@@ -1,0 +1,31 @@
+.subtitle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 4px 36px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #5EBC48 0%, #BCDD33 100%) 0% 0%  100%;
+    transition: ease-in;
+    transition-duration: 200ms;
+    
+
+}
+.subtitle-container:hover{
+    
+    padding: 4px 16px;
+    /* border-image: linear-gradient(180deg, #5EBC48 0%, #BCDD33 100%) 0% 0%  100%; */
+
+}
+
+/* TODO:Fixth font */
+.subtitle-container h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333333;
+    padding-bottom: 1px;
+    margin: 4px;
+
+}
+

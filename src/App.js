@@ -1,10 +1,10 @@
 import React from "react";
-import Banner from "./Components/Banner/Banner";
+import FeesSection from "./Components/FeesSection/FeesSection";
 
 function App() {
 	return (
 		<div>
-			<Banner></Banner>
+			<FeesSection />
 		</div>
 	);
 }

@@ -1,0 +1,44 @@
+.fees-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+/* ------------------------ Fees Card Styles ---------------------- */
+
+.feescard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--unnamed-color-5ca642) 0% 0% no-repeat padding-box;
+    background: #5CA642 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 32px 16px;
+    margin: 4px;
+    min-width: 210px;
+}
+
+.feescard-container h2{
+    margin: 4px;
+
+}
+.feescard-container img {
+    width: 50%;
+    padding: 4px 4px 0 4px;
+
+}
+.feescard-container div {
+    width: 100%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 24px 8px;
+    margin: 0 8px 0 8px;
+    color: #5CA642;
+}
