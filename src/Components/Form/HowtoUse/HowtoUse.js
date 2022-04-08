@@ -1,4 +1,4 @@
-import SubTitle from "../SubTitle/SubTitle";
+import SubTitle from "../../SubTitle/SubTitle";
 import "./how-to-use-style.css";
 import StepBox from "./StepBox";
 
