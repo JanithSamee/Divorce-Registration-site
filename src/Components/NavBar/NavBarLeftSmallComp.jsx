@@ -7,7 +7,7 @@ function NavBarLeftSmallComp() {
     <Container className="navBarLeftSmallComp-back">
       <Row className="navBarLeftSmallComp-row m-auto">
         <Col>お申し込みはこちら</Col>
-        <Col>{'>'}</Col>
+        <Col className='customright'>{'>'}</Col>
       </Row>
     </Container>
   );

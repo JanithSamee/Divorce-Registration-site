@@ -1,3 +1,11 @@
+.navBarLeftSmallComp-row{
+  flex-wrap: nowrap !important;
+
+}
+.customright{
+  text-align: end;
+}
+
 .navBarLeftSmallComp-back {
   padding: 5%;
   background-color: yellow;
