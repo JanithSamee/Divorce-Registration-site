@@ -17,12 +17,14 @@
 	color: #5ca642;
 	line-height: 1;
 	font-size: 25px;
+	font-weight: 600;
 }
 .step-circle h3 {
-	font-size: 38px;
+	font-size: 35px;
 	margin-top: -2px;
 	color: #ffea4a;
 	margin-bottom: 1px;
+	font-weight: 600;
 }
 .step-circle h4 {
 	font-size: 13px;
@@ -57,10 +59,11 @@
 		color: white;
 	}
 	.step-circle h3 {
-		font-size: 45px;
+		font-size: 38px;
 		margin-top: -2px;
 		color: #ffea4a;
 		margin-bottom: 1px;
+		font-weight: 600;
 	}
 	.step-box p {
 		text-align: left;
@@ -87,6 +90,52 @@
 		padding: 3em;
 		margin: 5em 1em;
 		width: 650px;
+		position: relative;
+	}
+	.arrow {
+		position: absolute;
+		bottom: -50px;
+		left: 345px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.step-circle h4 {
+		font-size: 17px;
+		margin-bottom: -5px;
+		color: white;
+	}
+	.step-circle h3 {
+		font-size: 38px;
+		margin-top: -2px;
+		color: #ffea4a;
+		margin-bottom: 1px;
+		font-weight: 600;
+	}
+	.step-box p {
+		text-align: left;
+		font-size: 21px;
+	}
+
+	.step-circle {
+		background-color: #5ca642;
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+		padding: 0.1px;
+		position: absolute;
+		top: -50px;
+		left: 325px;
+	}
+	.step-heading {
+		color: #5ca642;
+		line-height: 1;
+		font-size: 35px;
+	}
+	.step-box {
+		background-color: #fff9c9;
+		padding: 3em;
+		margin: 5em 1em;
+		width: 640px;
 		position: relative;
 	}
 	.arrow {

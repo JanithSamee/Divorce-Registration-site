@@ -5,6 +5,7 @@ import Banner from "./Components/Banner/Banner";
 import Form from "./Components/Form/Form";
 import DivorceWitnessSection from "./Components/DivorceWitnessSection/DivorceWitnessSection";
 import HowtoUse from "./Components/HowtoUse/HowtoUse";
+import "../src/App.css";
 // import MyCardSection from "./Components/MyCard/MyCardSection";
 // import icon from "../src/assets/icon1.svg";
 
