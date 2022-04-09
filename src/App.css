@@ -1,5 +1,18 @@
+@font-face {
+  font-family: 'Mincho'; /*Can be any text*/
+  src: local('HiraginoMincho'),
+    url('./fonts/Hiragino Mincho ProN W6.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kaku'; /*Can be any text*/
+  src: local('HiraginoKaku'),
+    url('./fonts/Hiragino Kaku Gothic ProN W3.otf') format('truetype');
+}
+
 .App {
   text-align: center;
+  font-family: 'Kaku', sans-serif !important;
 }
 
 .App-logo {
@@ -10,6 +23,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
   }
 }
 
