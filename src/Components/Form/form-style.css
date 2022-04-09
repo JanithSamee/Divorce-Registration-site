@@ -113,9 +113,8 @@ input {
 	margin-left: 2.5em;
 	margin-top: 2em;
 }
-button {
+.container-green button {
 	margin-top: 2em;
-	margin-left: 16em;
 	padding: 0.3em 1em;
 	width: 150px;
 	background-color: white;
