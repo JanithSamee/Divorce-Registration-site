@@ -77,6 +77,17 @@
     background-color: black;
     height: 2px;
   }
+
+  .navbar-collapse {
+    height: 100vh;
+  }
+
+  .navbar-nav {
+    height: 80vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 .navbar-light .navbar-toggler {
