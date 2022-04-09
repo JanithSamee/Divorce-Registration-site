@@ -1,0 +1,16 @@
+.firstPageBackground {
+  position: absolute;
+  bottom: 0;
+  left: 13%;
+  width: 48%;
+}
+
+@media only screen and (max-width: 800px) {
+  .firstPageBackground {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 70%;
+    /* display: none; */
+  }
+}

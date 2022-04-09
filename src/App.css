@@ -3,3 +3,82 @@
 * {
 	font-family: "Source Sans Pro", sans-serif;
 }
+@font-face {
+  font-family: 'Mincho'; /*Can be any text*/
+  src: local('HiraginoMincho'),
+    url('./fonts/Hiragino Mincho ProN W6.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kaku'; /*Can be any text*/
+  src: local('HiraginoKaku'),
+    url('./fonts/Hiragino Kaku Gothic ProN W3.otf') format('truetype');
+}
+
+
+
+.font-ultra {
+  font-size: calc(1.3em + 0.5vw);
+}
+
+.font-0 {
+  font-size: calc(1em + 0.5vw);
+}
+
+.font-1 {
+  font-size: calc(0.8em + 0.5vw);
+}
+
+.font-2 {
+  font-size: calc(0.7em + 0.5vw);
+}
+
+.font-3 {
+  font-size: calc(0.6em + 0.5vw);
+}
+
+.font-4 {
+  font-size: calc(0.5em + 0.5vw);
+}
+
+
+.App {
+  text-align: center;
+  font-family: 'Kaku', sans-serif !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
