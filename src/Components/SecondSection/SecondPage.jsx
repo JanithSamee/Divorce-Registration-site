@@ -22,11 +22,11 @@ function SecondPage() {
         <br />
         <br />
         離婚届の証人については家族や知人に頼むのが一般的です。 <br />
-        <div>
+        <div style={{textAlign:"center"}}>
           しかし、中には
           <span>証人が見つからない方や家族や知人に離婚したことを知ら</span>
         </div>
-        <div>
+        <div style={{textAlign:"center"}}>
           <span>れたくない</span>という方もいらっしゃると思います。
         </div>
         <br />
