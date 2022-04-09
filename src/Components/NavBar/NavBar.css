@@ -63,8 +63,7 @@
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
     font-weight: 700;
-    /* width: 50% !important; */
-    /* background-color: yellow; */
+    text-shadow: none;
   }
 
   .mainNavBar-a:after {
