@@ -18,6 +18,7 @@
 	line-height: 1;
 	font-size: 25px;
 	font-weight: 600;
+	margin-top: 0.5em;
 }
 .step-circle h3 {
 	font-size: 35px;
@@ -30,21 +31,22 @@
 	font-size: 13px;
 	margin-bottom: 0px;
 	color: white;
+	margin-top: 1em;
 }
 .step-circle {
 	background-color: #5ca642;
 	border-radius: 50%;
-	width: 90px;
-	height: 90px;
+	width: 80px !important;
+	height: 80px !important;
 	padding: 0.1px;
 	position: absolute;
 	top: -50px;
-	left: 125px;
+	left: 105px;
 }
 .arrow {
 	position: absolute;
 	bottom: -50px;
-	left: 140px;
+	left: 115px;
 }
 .box-container {
 	margin-bottom: 120px;
@@ -57,6 +59,7 @@
 		font-size: 17px;
 		margin-bottom: -5px;
 		color: white;
+		margin-top: 1em;
 	}
 	.step-circle h3 {
 		font-size: 38px;
@@ -75,27 +78,28 @@
 		border-radius: 50%;
 		width: 100px;
 		height: 100px;
-		padding: 0.1px;
 		position: absolute;
 		top: -50px;
-		left: 325px;
+		left: 300px !important;
 	}
 	.step-heading {
 		color: #5ca642;
 		line-height: 1;
 		font-size: 35px;
+		margin-top: 1em;
 	}
 	.step-box {
 		background-color: #fff9c9;
-		padding: 3em;
-		margin: 5em 1em;
-		width: 650px;
+		padding: 0.5em 1.5 !important;
+		margin: 7em 1em;
+		margin-bottom: 8em !important;
+		width: 650px !important;
 		position: relative;
 	}
 	.arrow {
 		position: absolute;
 		bottom: -50px;
-		left: 345px;
+		left: 308px !important;
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -103,6 +107,7 @@
 		font-size: 17px;
 		margin-bottom: -5px;
 		color: white;
+		margin-top: 0.7em;
 	}
 	.step-circle h3 {
 		font-size: 38px;
@@ -124,16 +129,18 @@
 		padding: 0.1px;
 		position: absolute;
 		top: -50px;
-		left: 325px;
+		left: 290px;
 	}
 	.step-heading {
 		color: #5ca642;
 		line-height: 1;
 		font-size: 35px;
+		margin: 0.8em 1em;
 	}
 	.step-box {
 		background-color: #fff9c9;
-		padding: 3em;
+		padding-top: 1em;
+		padding-left: 1em;
 		margin: 5em 1em;
 		width: 640px;
 		position: relative;
@@ -141,7 +148,7 @@
 	.arrow {
 		position: absolute;
 		bottom: -50px;
-		left: 345px;
+		left: 298px;
 	}
 }
 ::-webkit-scrollbar {
