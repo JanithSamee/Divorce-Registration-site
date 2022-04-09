@@ -3,8 +3,8 @@ import SubTitle from "../SubTitle/SubTitle";
 import "../Form/form-style.css";
 
 function Form() {
-	const [file1, setfile1] = useState("no file selected");
-	const [file2, setfile2] = useState("no file selected");
+	const [file1, setfile1] = useState("選択されていません");
+	const [file2, setfile2] = useState("選択されていません");
 	const handleFile1 = (e) => {
 		setfile1(e.target.value);
 	};
@@ -16,21 +16,17 @@ function Form() {
 			<center>
 				{/* <h1 className="main-heading">Application</h1>
 				<div className="line"></div> */}
-				<SubTitle title={"Application"}></SubTitle>
-				<h2 className="subheading-1">Please fill in the required items and apply.</h2>
+				<SubTitle title={"お申し込み"}></SubTitle>
+				<h2 className="subheading-1">必要事項をご記入の上、お申し込みください。</h2>
 				<div className="prec-box">
-					<h3 className="subheading-2">Precautions</h3>
+					<h3 className="subheading-2">【注意事項】</h3>
 					<p className="prec-para">
-						An automatic reply email will be sent to the email address you entered immediately after
-						applying. If you do not receive it, the email address you entered may be incorrect, or it may be
-						due to the junk email settings, so please check the following.
+						お申し込み後すぐにご入力いただいたメールアドレス宛に自動返信メールが送られます。届かない場合は、ご記入のメールアドレスに間違いがあるか、迷惑メール設定が原因の場合がございますので、下記ご確認ください。
 					</p>
 					<ul>
-						<li>Check your junk mail folder</li>
-						<li>Change the setting of "Receive by domain" so that you can receive emails from "●● @ ●●"</li>
-						<li>
-							Please contact us by stating your phone number and not receiving the email from "Inquiry".
-						</li>
+						<li>迷惑メールフォルダの確認</li>
+						<li>「●●@●●」からのメールを受信できるよう「ドメイン指定受信」の設定の変更</li>
+						<li>「お問合せ」よりメールが届かない旨と電話番号を記載してご連絡ください</li>
 					</ul>
 				</div>
 				<div className="form-container">
@@ -38,8 +34,8 @@ function Form() {
 						<div className="form-sec-1">
 							<label>
 								<p className="label-heading">
-									Name
-									<span className="req-badge">Required</span>
+									お名前
+									<span className="req-badge">必須</span>
 								</p>
 							</label>
 
@@ -48,8 +44,8 @@ function Form() {
 						<div className="form-sec-2">
 							<label>
 								<p className="label-heading">
-									Address
-									<span className="req-badge">Required</span>
+									ご住所
+									<span className="req-badge">必須</span>
 								</p>
 							</label>
 
@@ -59,29 +55,28 @@ function Form() {
 									fontSize: "13px",
 								}}
 							>
-								* If you have a request for a different return address or general delivery, please enter
-								it in the remarks column.
+								※別の返送先や郵便局留めのご希望がございましたら備考欄にご記入ください。.
 							</p>
 							<label>
-								<p className="text-box-heading">Post code</p>
+								<p className="text-box-heading">郵便番号</p>
 							</label>
 
-							<input type="text" id="post_code" placeholder="Post code"></input>
+							<input type="text" id="post_code" placeholder="住所自動入力"></input>
 							<br></br>
 							<label>
-								<p className="text-box-heading">County</p>
+								<p className="text-box-heading">都道府県</p>
 							</label>
 
 							<input type="text" id="country"></input>
 
 							<label>
-								<p className="text-box-heading">City</p>
+								<p className="text-box-heading">市区町村番地</p>
 							</label>
 
 							<input type="text" id="City"></input>
 
 							<label>
-								<p className="text-box-heading">Condominium name</p>
+								<p className="text-box-heading">マンション名/ビル名</p>
 							</label>
 
 							<input type="text" id="Condominium name"></input>
@@ -89,8 +84,8 @@ function Form() {
 						<div className="form-sec-3">
 							<label>
 								<p className="label-heading">
-									E-mail address
-									<span className="req-badge">Required</span>
+									マンション名/ビル名
+									<span className="req-badge">必須</span>
 								</p>
 							</label>
 
@@ -99,67 +94,64 @@ function Form() {
 						<div className="form-sec-4">
 							<label>
 								<p className="label-heading">
-									Application type
-									<span className="req-badge">Required</span>
+									お申し込みタイプ
+									<span className="req-badge">必須</span>
 								</p>
 							</label>
 
 							<input type="radio" id="Acting_person " style={{ boxShadow: "none" }}></input>
-							<label className="check-box-heading">Acting Person</label>
+							<label className="check-box-heading">離婚届・婚姻届 証人代行1名：●,●●●円（税込）</label>
 							<br></br>
 							<input type="radio" id="Acting_people" style={{ boxShadow: "none" }}></input>
-							<label className="check-box-heading">Acting 2 people </label>
+							<label className="check-box-heading">離婚届・婚姻届 証人代行2名：●,●●●円（税込）</label>
 						</div>
 						<div className="form-sec-5">
 							<label>
 								<p className="label-heading">
-									About divorce
-									<span className="req-badge">Required</span>
+									離婚・婚姻の合意について
+									<span className="req-badge">必須</span>
 								</p>
 							</label>
 
 							<input type="checkbox" id="type_1" style={{ boxShadow: "none" }}></input>
-							<label className="check-box-heading">Both couples have agreed to divorce or marry.</label>
+							<label className="check-box-heading">
+								夫婦ともに離婚または婚姻することに合意しています。
+							</label>
 							<br></br>
 
 							<input type="checkbox" id="type_2" style={{ boxShadow: "none" }}></input>
 							<label className="check-box-heading">
-								There is no unauthorized writing or other illegal activity in the divorce notification{" "}
+								離婚届・婚姻届に無断代筆その他の違法行為はありません。
 							</label>
 							<br></br>
 							<input type="checkbox" id="type_3" style={{ boxShadow: "none" }}></input>
-							<label className="check-box-heading">We will not do anything that causes trouble.</label>
+							<label className="check-box-heading">トラブルの原因となる行為はいたしません。</label>
 							<br></br>
-							<p>* If you do not check all, you will not be able to send.</p>
+							<p>※全てにチェックを入れなければ送信することはできません</p>
 							<p style={{ color: "red" }}>
 								{" "}
-								* When mailing a divorce report (marriage report), it cannot be accepted unless the
-								husband and wife have their own signatures and seals.
+								※ご本人確認書類は、ご依頼人様（夫・妻のどちらか１名）のみで構いません。
 							</p>
 						</div>
 						<div className="form-sec-5">
 							<label>
 								<p className="label-heading">
-									About identity verification documents
-									<span className="req-badge">Required</span>
+									ご本人確認書類について
+									<span className="req-badge">必須</span>
 								</p>
 							</label>
 
 							<input type="checkbox" id="doc_1" style={{ boxShadow: "none" }}></input>
 							<label className="check-box-heading">
-								Copy the identity verification document and send it directly by mail together with the
-								divorce notification (marriage registration)
+								ご本人確認書類をコピーして離婚届(婚姻届)と一緒に直接郵送で送る
 							</label>
 							<br></br>
 							<input type="checkbox" id="doc_2" style={{ boxShadow: "none" }}></input>
-							<label className="check-box-heading">
-								Send identity verification documents as an image file
-							</label>
+							<label className="check-box-heading">ご本人確認書類を画像ファイルで送る</label>
 
 							<br></br>
 							<p>
-								Below, if you have checked [Send identity verification documents as an image file],
-								please select a file.
+								以下、【ご本人確認書類を画像ファイルで送る】にチェックをされた方はファイルを選択してください。
 							</p>
 						</div>
 						<div className="form-sec-6">
@@ -172,7 +164,7 @@ function Form() {
 									hidden
 								></input>
 								<label htmlFor="file1" className="file-select">
-									Select a file
+									ファイルを選択
 								</label>
 								<p style={{ textAlign: "center", marginTop: "8px" }}>{file1}</p>
 							</div>
@@ -186,29 +178,26 @@ function Form() {
 									hidden
 								></input>
 								<label htmlFor="file2" className="file-select">
-									Select a file
+									ファイルを選択
 								</label>
 								<p style={{ textAlign: "center", marginTop: "8px" }}>{file2}</p>
 							</div>
 						</div>
 						<div>
 							<p style={{ color: "red" }}>
-								* Identity verification documents need only be the requester (either husband or wife).
+								※ご本人確認書類は、ご依頼人様（夫・妻のどちらか１名）のみで構いません。
 							</p>{" "}
 							<p>
-								* Please prepare one identity verification document such as a driver's license, health
-								insurance card, national pension certificate, passport, resident's card, etc. that can
-								confirm your name and address. If you have a driver's license and the address is changed
-								and the information is written on the back side, please send two sheets, the front side
-								and the back side. <br></br>* The image can be taken with a smartphone, etc. If you
-								would like to send the image later, you can attach the image to "●● @ ●●" and send it.
+								※ご本人確認書類は、運転免許証、健康保険証、国民年金手帳、パスポート、住民票など氏名・住所等が確認できるもの１点をご準備ください。運転免許証の方で住所変更などで裏面記載の場合は、表面・裏面の２枚をお送りください。
+								<br></br>
+								※画像はスマートフォン等で撮影したもので大丈夫です。後から画像を送りたい方は「●●@●●」に画像を添付して送信していただいても結構です。
 							</p>
 						</div>
 						<div className="form-sec-8">
 							<label>
 								<p className="label-heading">
-									<span className="any-badge">Any</span>
-									Comments
+									<span className="any-badge">任意</span>
+									備考
 								</p>
 							</label>
 
@@ -217,7 +206,7 @@ function Form() {
 							<div className="privacy">
 								<input type="checkbox" style={{ boxShadow: "none" }}></input>
 								<label>
-									<span style={{ marginLeft: "8px" }}>Confirm and agree to the contents of</span>
+									<span style={{ marginLeft: "8px" }}>の内容を確認し、同意する</span>
 									<a
 										href="/"
 										style={{
@@ -225,12 +214,12 @@ function Form() {
 											color: "#3594AA",
 										}}
 									>
-										Privacy Policy
+										「プライバシーポリシー」
 									</a>
 								</label>
 							</div>
 						</div>
-						<button>Send</button>
+						<button>送　信</button>
 					</form>
 				</div>
 			</center>

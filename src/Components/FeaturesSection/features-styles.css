@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    padding-bottom: 32px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -20,7 +21,7 @@
 
 .feature-topic-text{
     color: #333333;
-    font-size: larger;
+    font-size: x-large;
 }
 .feature-topic-text span{
     color: #5CA642;

@@ -11,7 +11,7 @@ function StepBox({ title, content, footer, number, type, footer2, isLast }) {
 			<p className="step-content">
 				<span>
 					<a href="/" style={{ marginRight: "5px", color: "#3594AA" }}>
-						Privacy
+						お申し込みフォーム
 					</a>
 				</span>
 				{content}

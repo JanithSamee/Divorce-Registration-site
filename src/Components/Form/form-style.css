@@ -12,7 +12,7 @@
 	background-image: linear-gradient(to right, #5ebc48, #bcdd33);
 }
 .subheading-1 {
-	margin-top: 3em;
+	margin: 2em 1em;
 }
 .prec-box {
 	background-color: white;
@@ -21,13 +21,18 @@
 }
 .subheading-2 {
 	font-size: 16px;
+	font-weight: 600;
 }
 .prec-para {
 	text-align: left;
 	margin-bottom: 1em;
 	margin-left: 1em;
+	font-size: small;
+	font-weight: 100;
 }
 li {
+	font-size: small;
+	font-weight: 100;
 	text-align: left;
 	line-height: 1.5;
 }
@@ -135,7 +140,7 @@ input {
 		margin-left: 10px;
 	}
 	.subheading-1 {
-		margin: 2em 1em;
+		margin: 1em 1em;
 	}
 	li {
 		line-height: 1.3;

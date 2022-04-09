@@ -8,12 +8,13 @@
     background-color: #F5F5F5 ;
     color: #333333;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 
 }
 
 
 .divorcesection-container h3{
+    font-size: medium;
     max-width: 40%;
     padding: 32px 0 8px 0;
 }
@@ -31,18 +32,24 @@
     color: #333333;
     max-width: 520px;
     margin-bottom: 32px;
+    font-size: small;
+    font-weight: 100;
 }
 .lawdescription-container h2{
     margin-bottom: 8px;
 }
 .lawdescription-container h2::before{
-    content: 'Civil Law ';
+    content: '民法 ';
     color: #5CA642;
+    font-size: small;
+    font-weight: 600;
     
 }
 .lawdescription-container h2::after{
-    content: ' Article';
+    content: ' 第条';
     color: #333333;
+    font-size: small;
+    font-weight: 600;
     
 }
 
