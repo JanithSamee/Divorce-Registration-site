@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import threemenImg from '../assets/mv.png';
-import bottomImg from '../assets/グループ 326.svg';
+import threemenImg from '../../assets/mv.png';
+import bottomImg from '../../assets/グループ 326.svg';
 import './FirstPageBackground.css';
 
 function FirstPageBackground() {
