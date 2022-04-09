@@ -78,3 +78,19 @@
     height: 2px;
   }
 }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-collapse {
+  transition: all 0.3s linear !important;
+  -webkit-transition: all 0.3s linear !important;
+  -moz-transition: all 0.3s linear !important;
+  -ms-transition: all 0.3s linear !important;
+  -o-transition: all 0.3s linear !important;
+}
