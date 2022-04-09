@@ -21,7 +21,7 @@
 }
 .subheading-2 {
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .prec-para {
 	text-align: left;
@@ -51,14 +51,14 @@ li {
 	margin-bottom: 2em;
 }
 
-.customform label{
+.customform label {
 	display: inline;
 }
 
 .label-heading {
 	margin-bottom: 10px;
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 600;
 }
 .req-badge {
 	margin-left: 8px;
@@ -85,7 +85,7 @@ input {
 	border-radius: 5px;
 }
 .check-box-heading {
-	font-weight: 550;
+	font-weight: 500;
 	margin-left: 10px;
 	line-height: 2;
 }
