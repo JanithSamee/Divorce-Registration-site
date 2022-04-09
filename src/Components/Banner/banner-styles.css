@@ -49,6 +49,7 @@
     margin: 16px 8px ;
     padding: 8px 16px;
     border-radius: 16px;
+    box-sizing: unset;
     background: #FFEA4A 0% 0% no-repeat padding-box;
     color: #333333;
     box-shadow: 0px 3px 6px #00000029;

@@ -12,8 +12,6 @@ import Footer from "./Components/Footer/Footer";
 import "./fonts/Hiragino Mincho ProN W6.otf";
 import "./fonts/Hiragino Kaku Gothic ProN W3.otf";
 import "../src/App.css";
-// import MyCardSection from "./Components/MyCard/MyCardSection";
-// import icon from "../src/assets/icon1.svg";
 
 function App() {
 	return (
@@ -22,7 +20,6 @@ function App() {
 			<SecondPage />
 			<Banner></Banner>
 			<FeaturesSection></FeaturesSection>
-			{/* <MyCardSection /> */}
 			<FeesSection />
 			<Banner></Banner>
 			<DivorceWitnessSection></DivorceWitnessSection>
