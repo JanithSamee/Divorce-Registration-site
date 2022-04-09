@@ -4,7 +4,7 @@ import StepBox from "./StepBox";
 
 function HowtoUse() {
 	return (
-		<div className="how-to-use">
+		<div className="how-to-use" id="howtouse-section">
 			<center>
 				<div className="title-container">
 					<SubTitle title="How to use" />

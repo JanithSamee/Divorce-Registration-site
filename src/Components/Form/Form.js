@@ -12,7 +12,7 @@ function Form() {
 		setfile2(e.target.value);
 	};
 	return (
-		<div className="container-green">
+		<div className="container-green" id="application-section">
 			<center>
 				{/* <h1 className="main-heading">Application</h1>
 				<div className="line"></div> */}

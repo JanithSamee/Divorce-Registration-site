@@ -5,7 +5,7 @@ import secondPageBottomImg from '../../assets/グループ 12.svg';
 
 function SecondPage() {
   return (
-    <Container fluid={true} className="secondPageContainer">
+    <Container fluid={true} className="secondPageContainer" id="home-section">
       <Row
         className="secondPageContainer-title font-ultra"
         style={{ fontWeight: 600, letterSpacing: '0.5vw' }}

@@ -9,7 +9,7 @@ import DualProfileIcon from "../../assets/dual-profile-icon.svg";
 
 function FeesSection() {
 	return (
-		<div className="fees-container">
+		<div className="fees-container" id="fee-section">
 			<SubTitle title={"Fee"}></SubTitle>
 			<div className="fees-cards-container">
 				<FeesCard

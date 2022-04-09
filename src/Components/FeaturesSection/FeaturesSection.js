@@ -8,7 +8,7 @@ import JapanIcon from "../../assets/japan-icon.svg";
 
 function FeaturesSection() {
 	return (
-		<div className="features-container">
+		<div className="features-container" id="feature-section">
 			<h2>●Divorce Registration Site●</h2>
 			<h3 className="feature-topic-text">
 				Our <span>4 </span>Features

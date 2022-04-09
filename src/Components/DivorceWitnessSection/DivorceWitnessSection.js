@@ -5,7 +5,7 @@ import "./divorcesection-styles.css";
 import LawDescriptionBox from "./LawDescriptionBox";
 function DivorceWitnessSection() {
 	return (
-		<div className="divorcesection-container">
+		<div className="divorcesection-container" id="divorcewitness-section">
 			<SubTitle title={"What is a Witness for Divorce?"}></SubTitle>
 			<h3>
 				The civil code (article 739,2, article 764, and 765) states that when a divorce is made by a couple, it
