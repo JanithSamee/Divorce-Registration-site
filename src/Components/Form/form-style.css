@@ -45,6 +45,11 @@ li {
 .form-sec-6 {
 	margin-bottom: 2em;
 }
+
+.customform label{
+	display: inline;
+}
+
 .label-heading {
 	margin-bottom: 10px;
 	font-size: 18px;
