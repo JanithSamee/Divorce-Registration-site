@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './SecondPage.css';
-import secondPageBottomImg from '../Assets/グループ 12.svg';
+import secondPageBottomImg from '../../assets/グループ 12.svg';
 
 function SecondPage() {
   return (

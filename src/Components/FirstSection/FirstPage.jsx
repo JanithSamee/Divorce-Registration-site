@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../Components/NavBar';
-import FirstPageBackground from '../Sections/FirstPageBackground';
+import NavBar from '../NavBar/NavBar';
+import FirstPageBackground from './FirstPageBackground';
 
 function FirstPage() {
   return (
