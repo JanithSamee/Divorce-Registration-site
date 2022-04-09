@@ -11,6 +11,7 @@ import HowtoUse from "./Components/HowtoUse/HowtoUse";
 function App() {
 	return (
 		<div>
+			<Banner></Banner>
 			<FeaturesSection></FeaturesSection>
 			{/* <MyCardSection /> */}
 			<FeesSection />
